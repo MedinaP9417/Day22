@@ -1,0 +1,25 @@
+{
+  "name": "day22",
+  "version": "1.0.0",
+  "description": "Assignment for Day22",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MedinaP9417/Day22.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MedinaP9417/Day22/issues"
+  },
+  "homepage": "https://github.com/MedinaP9417/Day22#readme"
+}
