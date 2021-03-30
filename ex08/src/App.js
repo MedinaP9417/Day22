@@ -1,5 +1,6 @@
 // src/App.js
-
+import Raect, { Component } from 'react';
+import Table from './Table'
 class App extends Component {
     render() {
         const characters = [
@@ -16,6 +17,7 @@ class App extends Component {
                 lastName: 'Turing',
             },
         ]
+         
         return (
             <div className="container">
                 <Table characterData={characters} />
@@ -25,17 +27,3 @@ class App extends Component {
 }
 export default App;
 
-// import React, { Component } from 'react';
-// import Table from './Table';
-
-// class App extends Component {
-//     render() {
-//         return (
-//             <div className="container">
-//                 <Table />
-//             </div>
-//         )
-//     }
-// }
-
-// export default App;
