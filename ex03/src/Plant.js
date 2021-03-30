@@ -1,17 +1,9 @@
-// src/Table.js
+// Class Component
 
-import React, { Component } from 'react';
-
-
-
+import React, { Component} from 'react';
 class Plant extends Component {
     render() {
-        return (
-            <div className="App">
-                <h1>This is a Plant Component</h1>
-            </div>
-        )
+        return <h2>This is a Plant Component!</h2>
     }
 }
-
 export default Plant;

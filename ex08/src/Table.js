@@ -13,39 +13,34 @@ const TableHeader = () => {
     )
 
 }// Add TableHeader arrow function here
-const TableBody = () => {
-
-    return (
-
-
-        <tbody>
-            <tr>
-                <td>Lary</td>
-                <td>Page</td>
+// src/Table.js
+const TableBody = (props) => {
+    const rows = props.characterData.map((row, index) => {
+        return (
+            <tr keys={index}>
+                <td>{row.firstName}</td>
+                <td>{row.lastName}</td>
             </tr>
-            <tr>
-                <td>Ada</td>
-                <td>Lovelace</td>
-            </tr>
-            <tr>
-                <td>Alan</td>
-                <td>Turing</td>
-            </tr>
-        </tbody>
-
-    )
+        );
+    }); 
+    return <tbody>{rows}</tbody>;
+            
 }
 // Add TableBody arrow function here
 
 class Table extends Component {
     render() {
+        const {characterData} = this.props;
         return (
             <table>
                 <TableHeader />
-                <TableBody />
+                <TableBody characterData={characterData} />
             </table>
         )
     }
 }
+const { characterData } =  this.props;
+
+
 
 export default Table;

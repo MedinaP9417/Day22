@@ -1,16 +1,14 @@
-// src/App.js
 
-import React, { Component } from 'react';
-import Box from './Box'
+import logo from './logo.svg';
+import Box from './Box';
+import './App.css';
 
-class App extends Component {
-    render() {
-        return (
-            <div className="container">
-                <Box />
-            </div>
-        )
-    }
+function App() {
+  return (
+    <div className="App">
+      <Box />
+    </div>
+  );
 }
 
 export default App;

@@ -1,17 +1,9 @@
-// src/Table.js
+// Class Component
 
 import React, { Component } from 'react';
-
-
-
 class Box extends Component {
     render() {
-        return (
-            <div className="App">
-                <h1>This is a Box Component!</h1>
-            </div>
-        )
+        return <div>This is a Box Component!</div>
     }
 }
-
 export default Box;

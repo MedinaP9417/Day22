@@ -1,5 +1,7 @@
-// src/Table.js
-import Table from './src/Table'
+// srcTable.js
+
+import React, { Component } from 'react';
+
 const TableHeader = () => {
     return (
         <thead>
@@ -10,7 +12,7 @@ const TableHeader = () => {
         </thead>
     )
 
-}
+}// Add TableHeader arrow function here
 const TableBody = () => {
 
     return (
@@ -33,5 +35,17 @@ const TableBody = () => {
 
     )
 }
+// Add TableBody arrow function here
 
+class Table extends Component {
+    render() {
+        return (
+            <table>
+                <TableHeader />
+                <TableBody />
+            </table>
+        )
+    }
+}
 
+export default Table;

@@ -2,6 +2,6 @@ import React from 'react';
 
 
 const Plant = () => {
-    return <div>This is a Plant Component!</div>
+    return <h2>This is a Plant Component!</h2>
 }
 export default Plant;

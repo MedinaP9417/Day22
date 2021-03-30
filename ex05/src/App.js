@@ -1,7 +1,7 @@
 // src/App.js
 
 import React, { Component } from 'react';
-import Table from './src/Table';
+import Table from './Table';
 
 class App extends Component {
     render() {
